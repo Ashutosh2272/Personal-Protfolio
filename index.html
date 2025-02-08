@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,31 +8,35 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/0e1a7d4945.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div id="header">
         <div class="container">
             <nav>
-                <img src="./images/logo.png" alt="Logo Image" class="logo">
+                <a href="#home"><img src="./images/logo.png" alt="Logo Image" class="logo"></a>
                 <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#services">Services</a></li>   
                     <li><a href="#portfolio">Protfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class=" fas fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
-
-            <div class="header-text">
-                <p>Full Stack Developer</p>
-                <h1>Hi, i'm <span>Ashutosh</span> <br>Maurya form India</h1>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/ashutoshmaurya21/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/Ashutosh2272"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.instagram.com/iashutoshmaurya/?hl=en"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/ashumaurya21"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <div class="header-content">
+                <div class="header-text">
+                    <p>Full Stack Developer</p>
+                    <h1>Hi, i'm <span>Ashutosh</span> <br>Maurya form India</h1>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ashutoshmaurya21/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Ashutosh2272"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/iashutoshmaurya/?hl=en"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/ashumaurya21"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -45,7 +50,8 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About me</h1>
-                    <p>Hi, I’m Ashutosh, and I’m currently a second-year BCA student. I’m passionate about technology and eager to expand my knowledge in the field of computer applications.</p>
+                    <p>Hi, I’m Ashutosh, and I’m currently a second-year BCA student. I’m passionate about technology
+                        and eager to expand my knowledge in the field of computer applications.</p>
 
                     <div class="tab-title">
                         <p class="tab-links" onclick="opentab('education')">Education</p>
@@ -68,7 +74,9 @@
                             <li><span>Backend Development</span><br>Node.js, Express.js</li>
                             <li><span>Database Management</span><br>Git & GitHub</li>
                             <li><span>Version Control</span><br>MongoDB, MySQL,ORACAL</li>
-                            <li><span>Other Skills</span><br>Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP), Operating System, Fundamental of Computer, Internet Technology and Web Development (ITWD)</li>
+                            <li><span>Other Skills</span><br>Data Structures & Algorithms (DSA), Object-Oriented
+                                Programming (OOP), Operating System, Fundamental of Computer, Internet Technology and
+                                Web Development (ITWD)</li>
                         </ul>
                     </div>
                     <!-- <div class="tab-contents" id="experience">
@@ -80,126 +88,130 @@
                     </div> -->
                     <div class="tab-contents" id="certification">
                         <ul>
-                            <li><span>NPTL</span><br>Certified in “Problem Solving Through Programming In C” by NPTEL Swayam.</li>
+                            <li><span>NPTL</span><br>Certified in “Problem Solving Through Programming In C” by NPTEL
+                                Swayam.</li>
                             <li><span>DSA</span><br>Certified in “C/C++ and DSA using C++” by MySirGPremium.com.</li>
                             <li><span>HTML5</span><br>Certified in “HTML5” by Infosys Springboard.</li>
                             <li><span>CSS3</span><br>Certified in “CSS3” by Infosys Springboard.</li>
                             <li><span>JavaScript</span><br>Certified in “JavaScript” by Infosys Springboard.</li>
                             <li><span>Fremwork</span><br>Certified in “Twitter Bootstrap” by Infosys Springboard.</li>
-                            <li><span>Python</span><br>Certified in “Introduction to Python” by Infosys Springboard.</li>
+                            <li><span>Python</span><br>Certified in “Introduction to Python” by Infosys Springboard.
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-<!-- -----------------------Services---------------------------- -->
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Web Design</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, molestiae quia? Earum, hic, incidunt illo iure nesciunt laborum porro ipsa ex necessitatibus ea, quibusdam facere. Illum fugiat aliquam mollitia repudiandae.</p>
-                <a href="#">Learn more</a>
-            </div>
-            <div>
-                <!-- <i class="fa-solid fa-crop"></i> -->
-                <h2>Comming Soon!!</h2>
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, molestiae quia? Earum, hic, incidunt illo iure nesciunt laborum porro ipsa ex necessitatibus ea, quibusdam facere. Illum fugiat aliquam mollitia repudiandae.</p> -->
-                <!-- <a href="#">Learn more</a> -->
-            </div>
-            <div>
-                <!-- <i class="fa-brands fa-app-store"></i> -->
-                <h2>Comming Soon!!</h2>
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, molestiae quia? Earum, hic, incidunt illo iure nesciunt laborum porro ipsa ex necessitatibus ea, quibusdam facere. Illum fugiat aliquam mollitia repudiandae.</p> -->
-                <!-- <a href="#">Learn more</a> -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- -------------------------Portfolio----------------------------- -->
- <div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="./images/work-1.png" alt="work1-image">
-                <div class="layer">
-                    <h3>Social Media app</h3>
-                    <p>The app cinnect you the talented people around the world.
-                        Download it form play store.
-                    </p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    <!-- -----------------------Services---------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, molestiae quia? Earum, hic,
+                        incidunt illo iure nesciunt laborum porro ipsa ex necessitatibus ea, quibusdam facere. Illum
+                        fugiat aliquam mollitia repudiandae.</p>
+                    <a href="#">Learn more</a>
                 </div>
-            </div>
-            <div class="work">
-                <img src="./images/work-2.png" alt="work1-image">
-                <div class="layer">
-                    <h3>Music Media app</h3>
-                    <p>The app cinnect you the talented people around the world.
-                        Download it form play store.
-                    </p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <div>
+                    <!-- <i class="fa-solid fa-crop"></i> -->
+                    <h2>Comming Soon!!</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, molestiae quia? Earum, hic, incidunt illo iure nesciunt laborum porro ipsa ex necessitatibus ea, quibusdam facere. Illum fugiat aliquam mollitia repudiandae.</p> -->
+                    <!-- <a href="#">Learn more</a> -->
                 </div>
-            </div>
-            <div class="work">
-                <img src="./images/work-3.png" alt="work1-image">
-                <div class="layer">
-                    <h3>Online Shopping app</h3>
-                    <p>The app cinnect you the talented people around the world.
-                        Download it form play store.
-                    </p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <div>
+                    <!-- <i class="fa-brands fa-app-store"></i> -->
+                    <h2>Comming Soon!!</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, molestiae quia? Earum, hic, incidunt illo iure nesciunt laborum porro ipsa ex necessitatibus ea, quibusdam facere. Illum fugiat aliquam mollitia repudiandae.</p> -->
+                    <!-- <a href="#">Learn more</a> -->
                 </div>
             </div>
         </div>
-        <a href="#" class="btn">See more</a>
     </div>
- </div>
- <!-- --------------------------Contact------------------------------ -->
-  <div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p> <i class="fa-solid fa-paper-plane"></i>ashumaurya2511@gmail.com</p>
-                <p><i class="fa-solid fa-square-phone-flip"></i>+91 6387530250</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <!-- -------------------------Portfolio----------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png" alt="work1-image">
+                    <div class="layer">
+                        <h3>Social Media app</h3>
+                        <p>The app cinnect you the talented people around the world.
+                            Download it form play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
                 </div>
-                <a href="./images/my-cv.docx" download target="_blank" class="btn btn2">Download CV</a>
+                <div class="work">
+                    <img src="./images/work-2.png" alt="work1-image">
+                    <div class="layer">
+                        <h3>Music Media app</h3>
+                        <p>The app cinnect you the talented people around the world.
+                            Download it form play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-3.png" alt="work1-image">
+                    <div class="layer">
+                        <h3>Online Shopping app</h3>
+                        <p>The app cinnect you the talented people around the world.
+                            Download it form play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="E-mail" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
-            </div>
+            <a href="#" class="btn">See more</a>
         </div>
     </div>
-    <div class="copyright">
-        Copyright © 2024 – Ashutosh. – All Rights Reserved.
+    <!-- --------------------------Contact------------------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>ashumaurya2511@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>+91 6387530250</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./images/my-cv.docx" download target="_blank" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="E-mail" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright © 2024 – Ashutosh. – All Rights Reserved.
+        </div>
     </div>
-  </div>
 
-  <!-- Script -->
+    <!-- Script -->
     <script>
-        var tablinks= document.getElementsByClassName("tab-links");
-        var tabcontents= document.getElementsByClassName("tab-contents");
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
 
-        function opentab(tabname){
-            for(tablink of tablinks){
+        function opentab(tabname) {
+            for (tablink of tablinks) {
                 tablink.classList.remove("active-link");
             }
-            for(tabcontent of tabcontents){
+            for (tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab");
             }
             event.currentTarget.classList.add("active-link");
@@ -210,35 +222,36 @@
 
     <script>
 
-    var sidemenu=document.getElementById("sidemenu");
-    
-    function openmenu(){
-        sidemenu.style.right="0";
-    }
+        var sidemenu = document.getElementById("sidemenu");
 
-    function closemenu(){
-        sidemenu.style.right ="-200px";
-    }
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
 
     </script>
 
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbyZ5RyoRvGQ2oAgUFxVVwBrPvF_Uzit7dQWwqqPWit5lxkESvBzWUpdes-K2lXZDjqO/exec'
         const form = document.forms['submit-to-google-sheet']
-        const msg=document.getElementById("msg")
-    
+        const msg = document.getElementById("msg")
+
         form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML="Message sent successfully"
-                setTimeout(function(){
-                    msg.innerHTML=""
-                },5000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
         })
     </script>
 </body>
+
 </html>
